@@ -1,0 +1,12 @@
+name = Farm Map KML
+description = Provides KML features for farm maps.
+core = 7.x
+package = farmOS
+dependencies[] = farm_map
+dependencies[] = geophp
+
+; Information added by Drupal.org packaging script on 2019-07-18
+version = "7.x-1.2"
+core = "7.x"
+project = "farm"
+datestamp = "1563457216"

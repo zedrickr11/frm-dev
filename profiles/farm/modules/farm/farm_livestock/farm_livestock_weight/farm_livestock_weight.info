@@ -1,0 +1,14 @@
+name = Farm Livestock Weight
+description = Features for tracking weight of animals with observation logs.
+core = 7.x
+package = farmOS
+dependencies[] = farm_livestock
+dependencies[] = farm_inventory
+dependencies[] = farm_quantity
+dependencies[] = farm_quantity_log
+
+; Information added by Drupal.org packaging script on 2019-07-18
+version = "7.x-1.2"
+core = "7.x"
+project = "farm"
+datestamp = "1563457216"

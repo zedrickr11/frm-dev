@@ -1,0 +1,14 @@
+name = Farm Data Field
+description = Adds an arbitrary data field to logs and assets.
+core = 7.x
+package = farmOS
+dependencies[] = farm_asset
+dependencies[] = farm_fields_dynamic
+dependencies[] = log
+dependencies[] = text
+
+; Information added by Drupal.org packaging script on 2019-07-18
+version = "7.x-1.2"
+core = "7.x"
+project = "farm"
+datestamp = "1563457216"

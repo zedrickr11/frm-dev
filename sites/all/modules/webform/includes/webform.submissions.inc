@@ -485,7 +485,7 @@ function webform_submission_delete_form_submit($form, &$form_state) {
  * Menu title callback; Return the submission number as a title.
  */
 function webform_submission_title($node, $submission) {
-  return t('Submission #@serial', array('@serial' => $submission->serial));
+  return t('Registro #@serial', array('@serial' => $submission->serial));
 }
 
 /**

@@ -13,12 +13,16 @@
  */
 ?>
 <fieldset class="webform-submission-info clearfix">
-  <legend><?php print t('Submission information'); ?></legend>
+  <legend><?php print t('Detalles'); ?></legend>
   <?php print theme('user_picture', array('account' => $account)); ?>
   <div class="webform-submission-info-text">
-    <div><?php print t('Form: !form', array('!form' => l($node->title, 'node/' . $node->nid))); ?></div>
-    <div><?php print t('Submitted by !name', array('!name' => theme('username', array('account' => $account)))); ?></div>
+    <div><?php print t("<strong>".'Formulario: </strong> !form', array('!form' => l($node->title, 'node/' . $node->nid))); ?></div>
+    <div><?php print t("<strong>".'Creado por: </strong> !name', array('!name' => theme('username', array('account' => $account)))); ?></div>
+   
+    <!-- Informacion de fecha e IP  
+    
     <div><?php print check_plain(format_date($submission->submitted, webform_variable_get('webform_date_type'))); ?></div>
-    <div><?php print check_plain($submission->remote_addr); ?></div>
+    <div><?php print check_plain($submission->remote_addr); ?></div> 
+    -->
   </div>
 </fieldset>

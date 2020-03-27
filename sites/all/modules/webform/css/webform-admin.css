@@ -4,6 +4,13 @@
  */
 
 /* Submission view page */
+.webform-label-processed{
+ font-weight: bold;
+}
+
+.webform-label-processed::after{ 
+  content: ": ";
+}
 .webform-submission-info {
   padding: 10px;
 }

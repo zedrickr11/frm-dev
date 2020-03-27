@@ -203,14 +203,14 @@ $translatables['webform_webforms'] = array(
   t('Created'),
   t('Status'),
   t('View'),
-  t('Submissions'),
-  t('Analysis'),
-  t('Table'),
-  t('Download'),
+  t('Envios'),
+  t('Analisis'),
+  t('Tabla'),
+  t('Descargar'),
   t('Operations'),
   t('Edit'),
   t('Components'),
-  t('Clear'),
+  t('Borrar'),
 );
 
 // --- Paste exported view above ---.

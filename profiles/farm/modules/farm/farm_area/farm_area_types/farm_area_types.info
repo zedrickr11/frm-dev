@@ -1,0 +1,11 @@
+name = Farm Area Types
+description = Provides some default area types.
+core = 7.x
+package = farmOS
+dependencies[] = farm_area
+
+; Information added by Drupal.org packaging script on 2019-07-18
+version = "7.x-1.2"
+core = "7.x"
+project = "farm"
+datestamp = "1563457216"
